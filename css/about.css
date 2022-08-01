@@ -1,0 +1,416 @@
+.header {
+    width: 100vw;
+    height: 98vh;
+    border: 0px solid black;    
+}
+.imgBg {
+    width: 100%;    
+    height: 100%;
+    z-index: -1;    
+    position: absolute;
+    object-fit: cover;    
+}
+.headerMain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerContainer {    
+    width: 100%;
+    height: 10%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+.logoContent {
+    width: 13%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0px solid blue;
+}
+.logoContent img {
+    width: 40px;
+}
+.logo {
+    color: white;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+} 
+.nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid yellow;
+    justify-content: space-evenly; 
+}
+.logoHead {
+    font-size: 26px;
+}
+.logoText {
+    font-size: 12px;    
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 0px;
+}
+.headText {
+    width: 53%;
+    height: 30%;
+    color: white;
+    border: 0px solid yellow;
+    font-size: 38px;    
+    font-family: 'Source Serif 4', serif;    
+}
+.headFooter {
+    width: 75%;
+    height: 12%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headScroll {
+    color: hsla(0,0%,100%,.65);
+    font-size: large;
+}
+.symbol {
+    width: 8%;    
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.content {
+    width: 100vw;
+    height: 55vh;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: xx-large;
+}
+.ImgContent {
+    width: 100vw;
+    height: 120vh;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+.textContent {
+    width: 28%;
+    height: 90%;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgPic {
+    width: 39%;
+    height: 89%;
+    border: 0px solid pink;
+}
+.imgPic img {
+    width: 100%;
+    height: 100%;
+}
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+}
+.para {
+    font-size: 18px;
+    line-height: 2;
+    color: #777
+}
+.BlackBox {
+    width: 100vw;
+    height: 180vh;
+    background-color: #161f1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.paraBlack {
+    width: 77%;
+    height: 25%;
+    border: 0px solid pink;
+    display: flex;
+    flex-direction: row;
+    color: white;  
+}
+.videoPlay {
+    width: 77%;
+    height: 48%;
+    border: 0px solid orange; 
+}
+.blackHead {
+    width: 50%;
+    height: 100%;
+    border: 0px solid orange;
+    font-family: 'Nanum Myeongjo', serif; 
+    font-size: 25px;    
+}
+.blackPara {
+    width: 50%;
+    height: 100%;
+    border: 0px solid orange;
+    font-size: 1rem;
+    line-height: 2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.whitePara {
+    width: 100%;
+    height: 70%;
+}
+.btnClass {
+    width: 100%;
+    height: 18%;
+}
+#btn {
+    width: 32%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid rgb(128, 119, 119);
+    color: white;
+    font-size: small;
+}
+#imageVideo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+#matter {
+    position: relative;
+    border: 0px solid orange;
+    width: 18%;
+    height: 15%;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    bottom: 160px;
+    left: 740px;
+    align-items: center;
+    justify-content: space-between;
+}
+#circle {
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border: 0px solid pink;
+    border-radius: 50%;
+}
+#videoText {
+    width: 50%;
+    color: white;
+    border: 0px solid orange;
+}
+#story {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#time {
+    font-size: large;
+}
+.imageview {
+    width: 100vw;
+    height: 150vh;
+    border: 0px solid orange;
+    display: flex;
+    align-items: center;
+}
+.imageBorder {
+    width: 100%;
+    height: 80%;
+    border: 0px solid black;
+}
+#viewImg {
+    width: 100%;
+    height: 100%;
+    border: 0px solid blue
+}
+.mainContainer {
+    width: 100vw;
+    height: 120vh;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+}
+.mainContent {
+    width: 75%;
+    height: 100%;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mainImg {
+    width: 45%;
+    height: 75%;
+    border: 0px solid blue
+}
+.mainImg img {
+    width: 100%;
+    height: 100%;
+}
+.mainTextImg {
+    width: 45%;
+    height: 100%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.mainHead {
+    width: 100%;
+    height: 17%;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-end;
+}
+.mainPara {
+    width: 100%;
+    height: 40%;
+    border: 0px solid black;
+}
+.mainImage {
+    width: 100%;
+    height: 37%;
+    border: 0px solid black;
+}
+.mainImage img {
+    width: 100%;
+    height: 100%;
+}
+.headPart {
+    width: 100%;
+    height: 60%;
+    border: 0px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+}
+.whiteSpace {
+    width: 100vw;
+    height: 17vh;
+}
+.mainSession {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+    position: relative;
+}
+#imgId {    
+    width: 100%;    
+    height: 100%;      
+    position: absolute;
+    object-fit:cover;
+    z-index: -1;
+    opacity: 0.9;
+}
+.textWorld {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;        
+}
+#textId {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+}
+#button {
+    width: 23%;
+    height: 23%;
+    background: transparent;
+    border: 1px solid rgb(222, 210, 210);
+    color: white;
+    font-size: medium;
+}
+.footer {
+    width: 100vw;
+    height: 50vh;
+    border: 0px solid red;    
+    display: flex;
+    flex-direction: row;
+    background-color: #161f1e;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.logoFooter {
+    width: 45%;
+    height: 100%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.footerImg {
+    width: 60%;
+    height: 45%;
+    border: 0px solid blue;
+}
+.footerContent {
+    width: 55%;
+    height: 100%;
+    border: 0px solid yellow;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+.footerClass {
+    width: 100vw;
+    height: 15vh;
+    border: 0px solid yellow;
+    display: flex;
+    justify-content: center;
+    background-color: #161f1e;
+}
+.footerImg img {
+    width: 40px;
+}
+.footerContainer {
+    width: 82%;
+    color: #189791; 
+}
+.footerNav {
+    width: 33.2%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid yellow;    
+    color: white;    
+    line-height: 2em;
+}
+.footerNav div{
+    color: #189791;
+    font-size: medium;
+}
+.footerNav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.footerNav a:hover{
+    text-decoration: underline;
+    color: white;    
+}

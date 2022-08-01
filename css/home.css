@@ -1,0 +1,459 @@
+.header {
+    width: 100vw;
+    height: 98vh;
+    border: 0px solid black;  
+}
+.videoBg {
+    width: 100%;    
+    height: 100%;
+    z-index: -1;    
+    position: absolute;
+    object-fit: cover;    
+}
+.headerMain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerContainer {    
+    width: 100%;
+    height: 10%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+.logoContent {
+    width: 13%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0px solid blue;  
+}
+.logoContent img {
+    width: 40px;
+}
+.logo {
+    color: white;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+} 
+.nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    border: 0px solid yellow;
+    justify-content: space-evenly; 
+}
+.logoHead {
+    font-size: 26px;
+}
+.logoText {
+    font-size: 12px;    
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 0px;
+}
+.headText {
+    width: 53%;
+    height: 35%;
+    color: white;
+    border: 0px solid yellow;
+    font-size: 45px;
+    font-family: 'Source Serif 4', serif;
+}
+.headFooter {
+    width: 75%;
+    height: 12%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headScroll {
+    color: hsla(0,0%,100%,.65);
+    font-size: large;
+}
+.symbol {
+    width: 8%;    
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.homeMain {
+    width: 100vw;
+    height: 150vh;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+}
+.mainContainer {
+    width: 100%;
+    height: 80%;
+    border: 0px solid blue;
+    display: flex;
+    justify-content: center;
+    background-image: url('https://dxaurk9yhilm4.cloudfront.net/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg');
+    background-size: contain;    
+    background-position: 70%;
+    background-repeat: no-repeat;
+    
+}
+.mainContent {
+    width: 75%;
+    height: 100%;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mainImg {
+    width: 45%;
+    height: 75%;
+    border: 0px solid blue
+}
+.mainImg img {
+    width: 100%;
+    height: 100%;
+}
+.mainTextImg {
+    width: 45%;
+    height: 100%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.mainHead {
+    width: 100%;
+    height: 15%;
+    border: 0px solid black;
+    display: flex;      
+}
+#spanHead {
+    font-family: 'Times new roman';
+    font-size: 50px;    
+}
+#spanText {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 50px;
+}
+.mainPara {
+    width: 100%;
+    height: 48%;
+    border: 0px solid black;
+}
+.mainImage {
+    width: 100%;
+    height: 37%;
+    border: 0px solid black;
+}
+.mainImage img {
+    width: 100%;
+    height: 100%;
+}
+.para {
+    font-size: 18px;
+    line-height: 2;
+    color: #777
+}
+.sessionContainer {
+    width: 100vw;
+    height: 190vh;
+    border: 0px solid black;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.sessionText {
+    width: 77%;
+    height: 35%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sessionHead {
+    width: 30%;
+    height: 60%;
+    border: 0px solid pink;
+    display: flex;
+    align-items: flex-end;
+}
+.sessionSpan {
+    width: 100%;
+    height: 50%;
+}
+.sessionPara {
+    width: 50%;
+    height: 20%;
+    border: 0px solid pink;
+}
+.sessionNav {
+    width: 40%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid pink;
+}
+.sessionNav a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.sessionNav a:hover {
+    text-decoration: underline;    
+    color: black;
+}
+.sessionBox {
+    width: 100%;
+    height: 60%;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.sessionImg {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.sessionImg img {    
+    height: 100%;
+}
+.sessionBlack {
+    width: 51%;
+    height: 67%;
+    background-color: #161f1e;
+    z-index: 2;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secImg {
+    width: 20%;
+    height: 67%;
+    border: 0px solid white;
+    z-index: 3;
+    position: absolute;
+    right: 50px;
+}
+.secImg img {
+    width: 100%;
+    height: 100%;
+}
+.subSession {
+    width: 83%;
+    height: 80%;
+    border: 0px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.box1 {
+    width: 40%;
+    height: 10%;
+    border: 0px solid pink;
+    font-size: xx-large;
+}
+.box2 {
+    width: 40%;
+    height: 15%;
+    border: 0px solid pink;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box3 {
+    width: 40%;
+    height: 30%;
+    border: 0px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box4 {
+    width: 37%;
+    height: 10%;
+    border: 0px solid pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#wind {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+.symbolIcon {    
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#symbolId {
+    color: hsla(0,0%,100%,.5);
+}
+.iconChild {
+    height: 50%;
+}
+.box4Num, .box3text {
+    color: hsla(0,0%,100%,.5);
+    font-size: medium;
+}
+.imageContent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.imgContentChild {
+    width: 33.2%;
+    height: 100%;
+    background-color: red;
+    border: 0px solid pink;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imgContentChild img {
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    position: absolute;
+    opacity: 0.9;
+}
+.imgTitle {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    color: white;
+    z-index: 7;
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    color: white;
+}
+.footer {
+    width: 100vw;
+    height: 50vh;
+    border: 0px solid red;    
+    display: flex;
+    flex-direction: row;
+    background-color: #161f1e;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.logoFooter {
+    width: 45%;
+    height: 100%;
+    border: 0px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.footerImg {
+    width: 60%;
+    height: 45%;
+    border: 0px solid blue;
+}
+.footerContent {
+    width: 55%;
+    height: 100%;
+    border: 0px solid yellow;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+.footerClass {
+    width: 100vw;
+    height: 15vh;
+    border: 0px solid yellow;
+    display: flex;
+    justify-content: center;
+    background-color: #161f1e;
+}
+.footerImg img {
+    width: 40px;
+}
+.footerContainer {
+    width: 82%;
+    color: #189791; 
+}
+.footerNav {
+    width: 33.2%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid yellow;    
+    color: white;    
+    line-height: 2em;
+}
+.footerNav div{
+    color: #189791;
+    font-size: medium;
+}
+.footerNav a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.footerNav a:hover{
+    text-decoration: underline;
+    color: white;    
+}
+@media only screen and (max-width: 600px){
+    .nav {
+        width: 27%;
+        flex-direction: column;
+    }
+    .mainContent {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Content {
+        font-size: large;
+    }    
+    .footer {
+        height: 110vh;
+        flex-direction: column;
+    }
+    .footerContent {
+        width: 80%;
+        flex-direction: column;
+    }
+    .footerNav {
+        width: 60%; 
+    }  
+    .footerClass {
+        align-items: center;
+    }     
+}
